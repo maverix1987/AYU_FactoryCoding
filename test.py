@@ -39,7 +39,7 @@ def run(weight_input,rate):
             rawopTime = endEx - startEx
             opTime = str(datetime.timedelta(seconds=rawopTime))
             #print("OPERATION TIME TAKEN : ",str(datetime.timedelta(seconds=12800)))    ##FAKE TEST CONVERT SECONDS
-            #print("OPERATION TIME TAKEN : ",str(datetime.timedelta(seconds=rawopTime))[:7])
+            print("OPERATION TIME TAKEN : ",str(datetime.timedelta(seconds=rawopTime))[:7])
             return
 
 run(weight_input,rate)
